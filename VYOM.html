@@ -1,0 +1,372 @@
+<html>
+
+<head>
+        <link rel="stylesheet" href="invoice.css">
+        <!-- <style>
+                body {
+                        margin: 0;
+                        padding: 0;
+                        background-color: #FAFAFA;
+                        font: 12pt "Tahoma";
+                }
+
+                .headPage {
+                        width: 21cm;
+                        min-height: 26.7cm;
+                        padding: 2cm;
+                        margin: 1cm auto;
+                        border: 1px #d3d3d3 solid;
+                        border-radius: 5px;
+                        background: white;
+                        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+                }
+
+                * {
+                        box-shadow: border-box;
+                }
+
+                .heading {
+                        text-align: right;
+                }
+
+                #logo {
+                        box-align: left;
+                }
+
+                .float-box1 {
+                        float: left;
+                        width: 300px;
+                        height: 175px;
+                        margin: 5px;
+                }
+
+                .float-box2 {
+                        float: right;
+                        width: 300px;
+                        height: 75px;
+                        margin: 5px;
+                }
+
+                .line {
+                        border-left: 1px solid black;
+                        border-spacing: 2px;
+                        margin-left: -5px;
+                        margin-right: 5px;
+                        height: 60px;
+                        padding: 10px;
+                }
+
+                #date {
+                        background-color: lightgray;
+                        text-align: right;
+                        padding: 10px;
+                        font-size: 20px;
+                        font-family: Arial, Helvetica, sans-serif;
+                }
+
+                #header {
+                        /* border-bottom: 1px solid black; */
+                        padding: 10px;
+                        width: 800px;
+                }
+
+                #header2 {
+                        margin-left: 340px;
+                        width: 800px;
+                }
+
+                #box {
+                        border-style: solid;
+                        border-color: 1px solid #e8ecf2;
+                        background-color: #f3f5f8;
+                        padding-bottom: 0cm;
+                }
+
+                #box1 {
+                        background-color: white;
+                }
+
+                #box2 {
+                        border-bottom: 1px solid black;
+                        padding: 7px;
+                }
+
+                #city1 {
+                        padding-left: 5%;
+                        padding-top: 5%;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 22px;
+                }
+
+                #city2 {
+                        margin-left: 100px;
+                }
+
+                #price {
+                        margin-left: 250px;
+                }
+
+                #state1 {
+                        margin-left: 40px;
+                }
+
+                #state2 {
+                        margin-left: 170px;
+                }
+
+                #amount {
+                        margin-left: 260px;
+                        font-size: 90%;
+                }
+
+                #rs {
+                        margin-left: 640px;
+                        font-size: 85%;
+                }
+
+                #quantity {
+                        margin-left: 40px;
+                }
+
+                #balance {
+                        margin-left: 620px;
+                        margin-top: 120px;
+                }
+
+                #name {
+                        margin-left: 175px;
+                        font-size: 70%;
+                        padding-bottom: 0.5cm;
+                }
+
+                #box3 {
+                        border: 0.5px solid gray;
+
+                }
+
+                #box4 {
+                        width: 250px;
+                        max-width: 250px;
+                        height: 60px;
+                        border-right: 1px solid gray;
+                }
+
+                #supplier1 {
+                        padding-left: 5%;
+                        position: relative;
+                        top: 10px;
+                }
+
+                #supplier2 {
+                        padding-left: 5%;
+                        position: relative;
+                        top: 10px;
+                }
+
+                #box5 {
+                        float: left;
+                        width: 250px;
+                        height: 60px;
+                        border: 1px solid black;
+                        position: relative;
+                        right: 0px;
+                        left: 250px;
+                        bottom: 60px;
+                }
+
+                #box6 {
+                        float: left;
+                        width: 283px;
+                        height: 60px;
+                        border: 1px solid black;
+                        position: relative;
+                        right: 0px;
+                        left: 250px;
+                        bottom: 60px;
+                }
+
+                #fees {
+                        padding: 20px;
+                        font-size: 20px;
+                        position: relative;
+                        right: 540px;
+                        font-family: Arial, Helvetica, sans-serif;
+                }
+
+                #tab {
+                        border: 1px solid black;
+                        width: 100%;
+                        border-collapse: collapse;
+                        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+                }
+
+                #tab td,
+                #tab th {
+                        border: 1px solid black;
+                        padding: 8px;
+                }
+
+                #tab th {
+                        padding-top: 12px;
+                        padding-bottom: 12px;
+                        text-align: left;
+                        background-color: lightgray;
+                }
+
+                #tab td {
+                        padding: 15px;
+                }
+
+                #terms {
+                        padding-top: 20px;
+                }
+
+                #para {
+                        color: grey;
+                        font-size: 14px;
+                        list-style-type: decimal;
+                        padding-top: 10px;
+                }
+
+                #note {
+                        margin-top: 5%;
+                        background-color: lightgray;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 14px;
+                        text-align: center;
+                        padding: 5px;
+                }
+        </style> -->
+</head>
+
+<body>
+        <div class="headPage">
+
+
+                <img src="vyon.png" alt="logo" align="left">
+
+                <div class="float-box1">
+                        <h2>VOYM</h2>
+                        <p>Vyomi Technetwork Services Pvt. Ltd<br />
+                                4th Floor, Plot 88, Sector 44,<br />
+                                Gurgaon, Haryana (08) 122003</p>
+                </div>
+
+                <div class="float-box2">
+                        <h3>Tax Invoice</h3>
+                        <p class="line">CIN : U60221HR2016PTC065401<br />
+                                GSTIN : 06AAFCV5675E1Z5<br />
+                                PAN : AAFCV5675E</p>
+                </div>
+                <br><br><br><br><br><br><br><br><br><br>
+                <div id="date"><strong>Date : 27 Oct 2017</strong></div>
+
+                <br /><br />
+                <div>
+                        To,<br />
+                        <strong>Andhra Bengal Road Logistics</strong>
+                </div>
+                <br />
+
+                <div id="box">
+                        <div id="box2">
+                                <span id="header">Booking ID : REJTRD</span>
+                                <span id="header2">Invoice ID : VYM1509107282481544</span>
+                        </div>
+                        <div id="box1">
+                                <div id="city1">
+                                        <strong>WARANGAL -</strong>
+                                        <span id="city2"><strong>BHOMRA</strong></span>
+                                        <span id="price"><strong>Rs. 88200</strong></span>
+                                </div>
+                                <div>
+                                        <span id="state1">
+                                                <font style="color:gray">Telangana</font>
+                                        </span>
+                                        <span id="state2">
+                                                <font style="color:gray">West Bengal</font>
+                                        </span>
+                                        <span id="amount">Advance amount</span><br />
+                                        <span id="rs">
+                                                <font style="color:gray">(90.0% of 98000)</font>
+                                        </span>
+                                </div>
+                                <div id="quantity">
+                                        Open • 12 tyre • 21 ton &nbsp;<strong>(TSO6UB1667)</strong>
+                                </div>
+                                <span id="balance">Balance : <strong>Rs. 9800</strong></span>
+                                <div id="name">(Narasimah - 9441876846)</div>
+                                <div id="box3">
+                                        <div id="box4">
+                                                <span id="supplier1">
+                                                        <font style="color:gray">Supplier :<br /></font>
+                                                </span>
+                                                <span id="supplier2">Ratcha Harsha Vardhan</span>
+                                        </div>
+                                        <span id="box5">
+                                                <span id="supplier1">
+                                                        <font style="color:gray">PAN :<br /></font>
+                                                </span>
+                                                <span id="supplier2">AJSPR4499R</span>
+                                        </span>
+                                        <span id="box6">
+                                                <span id="supplier1">
+                                                        <font style="color:gray">Phone :<br /></font>
+                                                </span>
+                                                <span id="supplier2">9676222213</span>
+                                        </span>
+
+                                </div>
+                        </div>
+
+                </div>
+
+                <div id="fees"><strong>Vyom fees</strong></div>
+
+                <table id="tab">
+                        <tr>
+                                <th>Description</th>
+                                <th>SAC <br /> Code</th>
+                                <th>Total</th>
+                                <th>Discount</th>
+                                <th>Taxable</th>
+                                <th>SGST<br />(9%)</th>
+                                <th>CGST<br />(9%)</th>
+                                <th>IGST<br />(18%)</th>
+                        </tr>
+                        <tr>
+                                <td>Service fee</td>
+                                <td>00440206</td>
+                                <td>Rs. 2000</td>
+                                <td>Rs. 2000</td>
+                                <td>Rs. 0.0</td>
+                                <td>Rs. 0.0</td>
+                                <td>Rs. 0.0</td>
+                                <td>Rs. 0.0</td>
+                        </tr>
+                        <tr>
+                                <td style="font-size:20px;">TOTAL</td>
+                                <td colspan="7" style="text-align:left; font-size: 20px;"> &nbsp; Rs. 0.0</td>
+                        </tr>
+                        <tr>
+                                <td style="color:gray;"> (in words) </td>
+                                <td colspan="7" style="text-align:left; color:grey;"> &nbsp; Rupees zero </td>
+                        </tr>
+                </table>
+                <div id="terms"><strong>Terms and Conditions</strong></div>
+                <ol id="para">
+                        <li>All Payment to be made only through NEFT/RTGS/NET Banking/Payment Gateway in favour of
+                                Vyomi Technetwork Services
+                                Pvt. Ltd.<br />
+                        </li>
+                        <li>All disputes and differences arising out of this invoice will be subject to jurisdiction of
+                                Gurgaon courts only.</li>
+                </ol>
+                <div id="note">
+                        Note: This is an electronically generated invoice and does not require a physical signature
+                </div>
+        </div>
+
+</body>
+
+</html>
